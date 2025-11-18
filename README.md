@@ -62,14 +62,19 @@ Git
 2. Clonar el Repositorio
 
 git clone (https://github.com/Josegtablante/keuken.git)
+
 cd keukenII
 
 3. Instalación de Dependencias
+
 cd keukenII
+
 npm install or npm -i
 
 4. Ejecutar la Aplicación
+
 cd keukenII
+
 npm start
 
 http://localhost:5173/
