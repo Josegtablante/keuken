@@ -1,16 +1,75 @@
-# React + Vite
+# KEUKEN
+point of sale
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 Sistema de Punto de Venta (POS)
 
-Currently, two official plugins are available:
+Este repositorio contiene la aplicación de Punto de Venta (POS), una herramienta diseñada para agilizar y optimizar el proceso de venta en tiendas minoristas, minimarkets y otros comercios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Características Principales
 
-## React Compiler
+El sistema está construido pensando en la eficiencia y la facilidad de uso para el cajero.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Interfaz de Venta Rápida (Caja):
 
-## Expanding the ESLint configuration
+Búsqueda y Escaneo: Permite buscar productos por nombre o escanear códigos de barras.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Catálogo Categorizado: El área central muestra el catálogo de productos organizado por categorías (Todo, Cannabicos, Chocolates, Confitería, etc.) para una selección manual ágil.
+
+Control de Stock (Implícito): Muestra la cantidad de stock disponible bajo cada producto.
+
+Manejo de Clientes: Permite seleccionar un cliente existente o facturar como "Consumidor Final" por defecto.
+
+Gestión de Transacciones:
+
+Carrito de Compras: Vista clara del detalle de los artículos seleccionados, con precio, cantidad e importe total.
+
+Funciones de Caja: Botones clave para la operación diaria:
+
+Reporte: Genera reportes de ventas (posiblemente al cierre del día).
+
+Guardar pedido: Permite suspender una transacción para atender a otro cliente y recuperarla después.
+
+Reanudar: Recupera un pedido guardado previamente.
+
+Cobrar: Inicia el proceso de pago.
+
+Visualización del Carrito:
+
+Muestra el Total de la venta en tiempo real.
+
+Permite ajustar la cantidad (Cant.) de cada artículo o Vaciar el carrito completamente.
+
+# 🚀 Arquitectura y Tecnología
+| Componente | Tecnología Sugerida | Descripción |
+
+| Frontend (Interfaz de Usuario) | React | Interfaz de usuario dinámica y responsiva para la caja.|
+
+| Estilos | Css3 | Framework de CSS para un diseño moderno y adaptativo. |
+
+
+# ⚙️ Instalación y Configuración
+
+Sigue estos pasos para poner en marcha el proyecto localmente.
+
+1. Prerrequisitos
+
+React.js
+
+Node.js (Versión 18+)
+
+Git
+
+2. Clonar el Repositorio
+
+git clone (https://github.com/Josegtablante/keuken.git)
+cd keukenII
+
+3. Instalación de Dependencias
+cd keukenII
+npm install or npm -i
+
+4. Ejecutar la Aplicación
+cd keukenII
+npm start
+
+http://localhost:5173/
